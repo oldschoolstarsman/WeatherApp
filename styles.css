@@ -1,9 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap");
+
 body {
-    background:#eeedec;
-    letter-spacing: .2em;
-    font-size: .8em;
+	background: #343434;
+	letter-spacing: 0.2em;
+	font-size: 0.8em;
 }
 
 .container {
-    max-width: 400px;
+	max-width: 500px;
+}
+
+.app_title {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 900;
+	color: #f1cf63;
+}
+
+.change-location {
+	font-family: "Source Sans Pro", sans-serif;
+
+}
+
+.details {
+    color: #343434;
+}
+
+.icon {
+	position: relative;
+	top: -50px;
+	border-radius: 50%;
+	width: 100px;
+	margin-bottom: -50px;
+}
+
+.form-control:focus {
+	border-color: #f1cf63;
+    outline: 0;
+    box-shadow: none;
+}
+
+.error {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+	font-weight: 900;
 }
