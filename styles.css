@@ -4,11 +4,14 @@ body {
 	background: #343434;
 	letter-spacing: 0.2em;
 	font-size: 0.8em;
+    height: 100vh;
 }
 
 .container {
 	max-width: 500px;
+	height: 500px;
 }
+
 
 .app_title {
 	font-family: "Source Sans Pro", sans-serif;
@@ -18,11 +21,10 @@ body {
 
 .change-location {
 	font-family: "Source Sans Pro", sans-serif;
-
 }
 
 .details {
-    color: #343434;
+	color: #343434;
 }
 
 .icon {
@@ -35,12 +37,12 @@ body {
 
 .form-control:focus {
 	border-color: #f1cf63;
-    outline: 0;
-    box-shadow: none;
+	outline: 0;
+	box-shadow: none;
 }
 
 .error {
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 900;
 }
